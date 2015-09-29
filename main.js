@@ -3,6 +3,6 @@
 	setInterval(function() {
 		cnt++;
 		if (cnt >= 3) cnt = 1;
-		$("#main img").attr("src", "p"+cnt+".png");
+		$("#main img").attr("src", "scr"+cnt+".png");
 	}, 3000);
 });
