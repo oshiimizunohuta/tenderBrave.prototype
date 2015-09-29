@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+body {
+	font-family: Meiryo, Sans-Serif;
+	font-size: 20px;
+	padding: 24px;
+	line-height: 1em;
+	background-color: #222;
+	color: #fff;
+}
+
+#main {
+	width: 600px;
+	height: 600px;
+}
