@@ -1,8 +1,12 @@
 ﻿$(document).ready(function() {
-	var cnt = 1;
+	var scene = 'a';
 	setInterval(function() {
-		cnt++;
-		if (cnt >= 3) cnt = 1;
-		$("#main img").attr("src", "scr"+cnt+".png");
+		if (scene === "a") { scene = "b"; }
+		else { scene = "a"; }
+		$("#main img").attr("src", "img/img_" + scene + ".png");
+		$("#ui_a").hide();
+		$("#ui_b").hide();
+		$("#ui_" + scene).show();
+
 	}, 3000);
 });

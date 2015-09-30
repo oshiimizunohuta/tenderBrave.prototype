@@ -3,13 +3,35 @@
 body {
 	font-family: Meiryo, Sans-Serif;
 	font-size: 20px;
+	line-height: 1.33em;
 	padding: 24px;
-	line-height: 1em;
 	background-color: #fbf9f7;
 	color: #222;
 }
 
 #main {
+	display: block;
+	position: relative;
 	width: 600px;
 	height: 600px;
+}
+
+.label, .link {
+	display: block;
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	/*background-color: #dd00aa;*/ /* 仮 */
+}
+
+.label > span, .link > span {
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	margin: 0px;
+	padding: 0px;
+	font-size: 20px;
+	line-height: 1em;
+	/*background-color: #ff00cc;*/ /* 仮 */
+	color: #fff;
 }
