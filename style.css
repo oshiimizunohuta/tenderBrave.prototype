@@ -9,6 +9,10 @@ body {
 	color: #222;
 }
 
+* {
+	box-sizing: border-box;
+}
+
 #main {
 	display: block;
 	position: relative;
@@ -16,15 +20,29 @@ body {
 	height: 600px;
 }
 
-.label, .link {
+.label, .link, .command {
 	display: block;
 	position: absolute;
 	margin: 0px;
 	padding: 0px;
 	/*background-color: #dd00aa;*/ /* 仮 */
+	color: #fff;
 }
 
-.label > span, .link > span {
+.link:hover, .link:active, .command:hover, .command:active {
+	cursor: pointer;
+	color: #ffeb7c;
+}
+
+.command {
+	padding-left: 20px;
+}
+
+.command:hover, .command:active {
+	background: url(img/cursor.png) no-repeat left center;
+}
+
+.label > span, .link > span, .command > span {
 	display: inline-block;
 	position: relative;
 	vertical-align: middle;
@@ -33,5 +51,4 @@ body {
 	font-size: 20px;
 	line-height: 1em;
 	/*background-color: #ff00cc;*/ /* 仮 */
-	color: #fff;
 }

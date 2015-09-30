@@ -244,10 +244,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="366.77359"
-     inkscape:cy="405.91847"
+     inkscape:cx="438.18885"
+     inkscape:cy="271.72008"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer10"
      showgrid="true"
      inkscape:showpageshadow="false"
      borderlayer="true"
@@ -277,7 +277,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -289,11 +289,11 @@
     <image
        sodipodi:absref="C:\Users\TAKUYA\Documents\GitHub\tenderBrave.prototype\img\bg_b.jpg"
        xlink:href="bg_b.jpg"
-       width="600"
-       height="600"
-       id="image3002"
+       y="452.36221"
        x="0"
-       y="452.36221" />
+       id="image3002"
+       height="600"
+       width="600" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -305,11 +305,11 @@
     <image
        sodipodi:absref="C:\Users\TAKUYA\Documents\GitHub\tenderBrave.prototype\img\n2.png"
        xlink:href="n2.png"
-       width="398.82568"
-       height="638.12109"
-       id="image4130"
+       y="568.40686"
        x="102.11623"
-       y="568.40686" />
+       id="image4130"
+       height="638.12109"
+       width="398.82568" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -504,114 +504,58 @@
     <rect
        style="fill:#00ffff;fill-opacity:0.75294118;stroke:none"
        id="rect4095-3"
-       width="262.00339"
+       width="280"
        height="25.999981"
-       x="37.996613"
+       x="20"
        y="454" />
-    <rect
-       style="fill:#ff00c5;fill-opacity:0.75294118;stroke:none"
-       id="rect4095-3-8"
-       width="26"
-       height="26"
-       x="12"
-       y="454" />
-    <rect
-       style="fill:#ff00c5;fill-opacity:0.75294118;stroke:none"
-       id="rect4095-3-8-9"
-       width="26"
-       height="26"
-       x="12"
-       y="486" />
-    <rect
-       style="fill:#ff00c5;fill-opacity:0.75294118;stroke:none"
-       id="rect4095-3-8-3"
-       width="26"
-       height="26"
-       x="12"
-       y="518" />
-    <rect
-       style="fill:#ff00c5;fill-opacity:0.75294118;stroke:none"
-       id="rect4095-3-8-3-4"
-       width="26"
-       height="26"
-       x="12"
-       y="562" />
-    <rect
-       style="fill:#ff00c5;fill-opacity:0.75294118;stroke:none"
-       id="rect4095-3-8-4"
-       width="26"
-       height="26"
-       x="306"
-       y="454" />
-    <rect
-       style="fill:#ff00c5;fill-opacity:0.75294118;stroke:none"
-       id="rect4095-3-8-9-6"
-       width="26"
-       height="26"
-       x="306"
-       y="486" />
-    <rect
-       style="fill:#ff00c5;fill-opacity:0.75294118;stroke:none"
-       id="rect4095-3-8-3-0"
-       width="26"
-       height="26"
-       x="306"
-       y="518" />
-    <rect
-       style="fill:#ff00c5;fill-opacity:0.75294118;stroke:none"
-       id="rect4095-3-8-3-4-6"
-       width="26"
-       height="26"
-       x="306"
-       y="562" />
     <rect
        style="fill:#00ffff;fill-opacity:0.75294118;stroke:none"
        id="rect4095-3-6"
-       width="262.00339"
+       width="280"
        height="25.999981"
-       x="37.996613"
+       x="20"
        y="486" />
     <rect
        style="fill:#00ffff;fill-opacity:0.75294118;stroke:none"
        id="rect4095-3-1"
-       width="262.00339"
+       width="280"
        height="25.999981"
-       x="37.996613"
+       x="20"
        y="518" />
     <rect
        style="fill:#00ffff;fill-opacity:0.75294118;stroke:none"
        id="rect4095-3-1-8"
-       width="262.00339"
+       width="280"
        height="25.999981"
-       x="37.996613"
+       x="20"
        y="562" />
     <rect
        style="fill:#00ffff;fill-opacity:0.75294118;stroke:none"
        id="rect4095-3-4"
-       width="262"
+       width="280"
        height="25.999981"
-       x="332"
+       x="314"
        y="454" />
     <rect
        style="fill:#00ffff;fill-opacity:0.75294118;stroke:none"
        id="rect4095-3-6-9"
-       width="262"
+       width="280"
        height="25.999981"
-       x="332"
+       x="314"
        y="486" />
     <rect
        style="fill:#00ffff;fill-opacity:0.75294118;stroke:none"
        id="rect4095-3-1-6"
-       width="262"
+       width="280"
        height="25.999981"
-       x="332"
+       x="314"
        y="518" />
     <rect
        style="fill:#00ffff;fill-opacity:0.75294118;stroke:none"
        id="rect4095-3-1-8-3"
-       width="262"
+       width="280"
        height="25.999981"
-       x="332"
+       x="314"
        y="562" />
   </g>
   <g

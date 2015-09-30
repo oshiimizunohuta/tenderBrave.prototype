@@ -279,10 +279,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.0396203"
-     inkscape:cx="319.69997"
-     inkscape:cy="233.18081"
+     inkscape:cx="324.97859"
+     inkscape:cy="332.99385"
      inkscape:document-units="px"
-     inkscape:current-layer="layer10"
+     inkscape:current-layer="layer3"
      showgrid="true"
      inkscape:showpageshadow="false"
      borderlayer="true"
@@ -313,7 +313,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -326,11 +326,11 @@
     <image
        sodipodi:absref="C:\Users\TAKUYA\Documents\GitHub\tenderBrave.prototype\img\bg_a.jpg"
        xlink:href="bg_a.jpg"
-       width="600"
-       height="600"
-       id="image3002"
+       y="452.36218"
        x="0"
-       y="452.36218" />
+       id="image3002"
+       height="600"
+       width="600" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -341,11 +341,11 @@
     <image
        sodipodi:absref="C:\Users\TAKUYA\Documents\GitHub\tenderBrave.prototype\img\n.png"
        xlink:href="n.png"
-       width="380.28174"
-       height="532.39435"
-       id="image3013"
+       y="557.98596"
        x="132.47083"
-       y="557.98596" />
+       id="image3013"
+       height="532.39435"
+       width="380.28174" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -511,44 +511,16 @@
     <rect
        style="fill:#00ffff;fill-opacity:0.75294118;stroke:none;display:inline"
        id="rect4095-3"
-       width="262.00339"
-       height="25.999981"
-       x="37.996613"
+       width="280.00006"
+       height="25.999901"
+       x="20"
        y="454" />
-    <rect
-       style="fill:#ff00c5;fill-opacity:0.75294118;stroke:none;display:inline"
-       id="rect4095-3-8"
-       width="26"
-       height="26"
-       x="12"
-       y="454" />
-    <rect
-       style="fill:#ff00c5;fill-opacity:0.75294118;stroke:none;display:inline"
-       id="rect4095-3-8-9"
-       width="26"
-       height="26"
-       x="12"
-       y="486" />
-    <rect
-       style="fill:#ff00c5;fill-opacity:0.75294118;stroke:none;display:inline"
-       id="rect4095-3-8-4"
-       width="26"
-       height="26"
-       x="306"
-       y="454" />
-    <rect
-       style="fill:#ff00c5;fill-opacity:0.75294118;stroke:none;display:inline"
-       id="rect4095-3-8-9-6"
-       width="26"
-       height="26"
-       x="306"
-       y="486" />
     <rect
        style="fill:#00ffff;fill-opacity:0.75294118;stroke:none;display:inline"
        id="rect4095-3-6"
-       width="262.00339"
-       height="25.999981"
-       x="37.996613"
+       width="280.00006"
+       height="25.999987"
+       x="20"
        y="486" />
     <rect
        style="fill:#00ffff;fill-opacity:0.75294118;stroke:none;display:inline"
@@ -567,16 +539,16 @@
     <rect
        style="fill:#00ffff;fill-opacity:0.75294118;stroke:none;display:inline"
        id="rect4095-3-4"
-       width="262"
-       height="25.999981"
-       x="332"
+       width="280"
+       height="26.000122"
+       x="314"
        y="454" />
     <rect
        style="fill:#00ffff;fill-opacity:0.75294118;stroke:none;display:inline"
        id="rect4095-3-6-9"
-       width="262"
-       height="25.999981"
-       x="332"
+       width="280"
+       height="25.999928"
+       x="314"
        y="486" />
     <rect
        style="fill:#00ffff;fill-opacity:0.75294118;stroke:none;display:inline"
