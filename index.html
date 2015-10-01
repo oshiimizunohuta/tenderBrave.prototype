@@ -7,10 +7,11 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="main.js"></script>
 </head>
-<body>
+<body><div style="width: 600px">
+
 	<div id="main">
-		<img src="img/img_a.png" />
-		<div id="ui_a">
+		<div id="scene_a" class="scene">
+			<img src="img/img_a.png" />
 			<div class='label' style='width:128px; height:26px; left:140px; top:12px; text-align:left;'><span id='name_a1_label'>勇者Ｆ</span></div>
 			<div class='label' style='width:128px; height:26px; left:332px; top:12px; text-align:right;'><span id='name_a2_label'>ねずみ戦士</span></div>
 			<div class='command' style='width:280px; height:26px; left:20px; top:454px; text-align:left;'><span id='skil_a1_command'>居合い斬り</span></div>
@@ -20,9 +21,9 @@
 			<div class='label' style='width:420px; height:26px; left:38px; top:530px; text-align:left;'><span id='w_effect_label'>敵に10のダメージ</span></div>
 			<div class='label' style='width:420px; height:26px; left:38px; top:562px; text-align:left;'><span id='l_effect_label'>敵に5のダメージ</span></div>
 			<div class='link' style='width:112px; height:26px; left:476px; top:546px; text-align:center;'><span id='item_link'>アイテム</span></div>
-
 		</div>
-		<div id="ui_b" style="display: none;">
+		<div id="scene_b" class="scene" style="display: none;">
+			<img src="img/img_b.png" />
 			<div class='label' style='width:104px; height:26px; left:164px; top:12px; text-align:left;'><span id='time_label'>残り時間</span></div>
 			<div class='label' style='width:128px; height:26px; left:332px; top:12px; text-align:right;'><span id='name_b2_label'>ねずみ戦士</span></div>
 			<div class='command' style='width:280px; height:26px; left:20px; top:454px; text-align:left;'><span id='skil_b1_command'>着せ替える</span></div>
@@ -33,9 +34,13 @@
 			<div class='command' style='width:280px; height:26px; left:314px; top:518px; text-align:left;'><span id='skil_b6_command'>口説く</span></div>
 			<div class='command' style='width:280px; height:26px; left:20px; top:562px; text-align:left;'><span id='skil_b7_command'>お説教をする</span></div>
 			<div class='command' style='width:280px; height:26px; left:314px; top:562px; text-align:left;'><span id='skil_b8_command'>物置に閉じ込める</span></div>
-
+			<div id="face" style='width:80px; height:80px; left:500px; top:70px; background:url(img/faces.png) no-repeat -80px -80px;'></div>
 		</div>
 	</div>
+	<div style="margin:4px 0px; padding:10px; background-color:#f0f0e8;">
+		<button id="scene_a_button">通常戦闘</button>　<button id="scene_b_button">更生</button>
+	</div>
+
 	<div>
 		<p>
 			Step by Step的に作っていきます。飽きたら放置します。
@@ -43,5 +48,6 @@
 		<p>2015.09.30 テキスト置いてコマンドをクリックできそうな雰囲気にした（クリックできるとは言ってない）。</p>
 		<p>2015.09.29 とりあえずスライドショー</p>
 	</div>
-</body>
+
+</div></body>
 </html>

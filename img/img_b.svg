@@ -16,7 +16,7 @@
    version="1.1"
    inkscape:version="0.48.2 r9819"
    sodipodi:docname="img_b.svg"
-   inkscape:export-filename="img_b.png"
+   inkscape:export-filename="scr_b.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -244,10 +244,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="438.18885"
-     inkscape:cy="271.72008"
+     inkscape:cx="259.73009"
+     inkscape:cy="287.62396"
      inkscape:document-units="px"
-     inkscape:current-layer="layer10"
+     inkscape:current-layer="layer11"
      showgrid="true"
      inkscape:showpageshadow="false"
      borderlayer="true"
@@ -277,7 +277,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -289,11 +289,11 @@
     <image
        sodipodi:absref="C:\Users\TAKUYA\Documents\GitHub\tenderBrave.prototype\img\bg_b.jpg"
        xlink:href="bg_b.jpg"
-       y="452.36221"
-       x="0"
-       id="image3002"
+       width="600"
        height="600"
-       width="600" />
+       id="image3002"
+       x="0"
+       y="452.36221" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -305,11 +305,11 @@
     <image
        sodipodi:absref="C:\Users\TAKUYA\Documents\GitHub\tenderBrave.prototype\img\n2.png"
        xlink:href="n2.png"
-       y="568.40686"
-       x="102.11623"
-       id="image4130"
+       width="398.82568"
        height="638.12109"
-       width="398.82568" />
+       id="image4130"
+       x="102.11623"
+       y="568.40686" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -702,5 +702,130 @@
          y="1138"
          style="fill:#ffffff;fill-opacity:1"
          id="tspan4211-0-5">口説く</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer11"
+     inkscape:label="表情">
+    <rect
+       rx="0"
+       style="fill:#fff691;fill-opacity:0.627451;stroke:none;display:inline"
+       id="rect3864"
+       width="80"
+       height="80.000114"
+       x="500"
+       y="70"
+       ry="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 518,102 0,16 0,0"
+       id="path3889"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 562,102 0,16 0,0"
+       id="path3889-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 508,98 16,4"
+       id="path3909"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 572,98 -16,4"
+       id="path3909-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.99999988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 530,136 10,-12 10,12"
+       id="path3929"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <rect
+       rx="14"
+       style="fill:#ffffff;fill-opacity:0.93333333;stroke:none;display:inline"
+       id="rect3864-4"
+       width="80"
+       height="80.000114"
+       x="608"
+       y="68"
+       ry="14" />
+    <rect
+       rx="12"
+       style="opacity:0.75;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-opacity:0.62745098;stroke-dasharray:none;display:inline"
+       id="rect3864-7-0"
+       width="76"
+       height="76.000107"
+       x="610"
+       y="70"
+       ry="12" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 628,100 0,16 0,0"
+       id="path3889-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 668,100 0,16 0,0"
+       id="path3889-1-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 618,96 16,4"
+       id="path3909-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 678,96 -16,4"
+       id="path3909-7-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.99999988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 638,134 10,-12 10,12"
+       id="path3929-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer12"
+     inkscape:label="表情の枠">
+    <rect
+       style="fill:#000000;fill-opacity:0.62745097999999999;stroke:none;opacity:0.75"
+       id="rect3941"
+       width="6"
+       height="80"
+       x="574"
+       y="70" />
+    <rect
+       style="fill:#000000;fill-opacity:0.62745097999999999;stroke:none;opacity:0.75"
+       id="rect3943"
+       width="6"
+       height="80"
+       x="500"
+       y="70" />
+    <rect
+       style="fill:#000000;fill-opacity:0.62745097999999999;stroke:none;opacity:0.75"
+       id="rect3945"
+       width="80"
+       height="6"
+       x="500"
+       y="70" />
+    <rect
+       style="fill:#000000;fill-opacity:0.62745097999999999;stroke:none;opacity:0.75"
+       id="rect3947"
+       width="80"
+       height="6"
+       x="500"
+       y="144" />
   </g>
 </svg>

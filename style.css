@@ -9,6 +9,10 @@ body {
 	color: #222;
 }
 
+button {
+	font: inherit;
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -20,9 +24,19 @@ body {
 	height: 600px;
 }
 
-.label, .link, .command {
+.scene {
 	display: block;
 	position: absolute;
+	width: 600px;
+	height: 600px;
+}
+
+.scene * {
+	display: block;
+	position: absolute;
+}
+
+.label, .link, .command {
 	margin: 0px;
 	padding: 0px;
 	/*background-color: #dd00aa;*/ /* 仮 */

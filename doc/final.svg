@@ -157,7 +157,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
      inkscape:cx="598.39776"
-     inkscape:cy="732.63037"
+     inkscape:cy="449.78766"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
@@ -330,16 +330,16 @@
      id="layer1"
      style="display:inline">
     <image
-       sodipodi:absref="C:\Users\TAKUYA\Documents\GitHub\tenderBrave.prototype\doc\img_a.png"
-       xlink:href="img_a.png"
+       sodipodi:absref="C:\Users\TAKUYA\Documents\GitHub\tenderBrave.prototype\doc\../img/scr_a.png"
+       xlink:href="../img/scr_a.png"
        width="361.42856"
        height="361.42856"
        id="image3778"
        x="22.857141"
        y="232.27803" />
     <image
-       sodipodi:absref="C:\Users\TAKUYA\Documents\GitHub\tenderBrave.prototype\doc\img_b.png"
-       xlink:href="img_b.png"
+       sodipodi:absref="C:\Users\TAKUYA\Documents\GitHub\tenderBrave.prototype\doc\../img/scr_b.png"
+       xlink:href="../img/scr_b.png"
        width="445.18796"
        height="445.18796"
        id="image3789"
@@ -347,8 +347,8 @@
        y="487.11411"
        transform="matrix(0.99366062,0.11242139,-0.11242139,0.99366062,0,0)" />
     <image
-       sodipodi:absref="C:\Users\TAKUYA\Documents\GitHub\tenderBrave.prototype\doc\n3.jpg"
-       xlink:href="n3.jpg"
+       sodipodi:absref="C:\Users\TAKUYA\Documents\GitHub\tenderBrave.prototype\doc\../img/n3.jpg"
+       xlink:href="../img/n3.jpg"
        y="762.89685"
        x="-181.05428"
        id="image3800"
@@ -356,8 +356,8 @@
        width="285.01517"
        transform="matrix(0.98339011,-0.18150451,0.18150451,0.98339011,0,0)" />
     <image
-       sodipodi:absref="C:\Users\TAKUYA\Documents\GitHub\tenderBrave.prototype\doc\y.png"
-       xlink:href="y.png"
+       sodipodi:absref="C:\Users\TAKUYA\Documents\GitHub\tenderBrave.prototype\doc\../img/y.png"
+       xlink:href="../img/y.png"
        width="348.28571"
        height="580.4762"
        id="image2999"

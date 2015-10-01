@@ -16,7 +16,7 @@
    version="1.1"
    inkscape:version="0.48.2 r9819"
    sodipodi:docname="img_a.svg"
-   inkscape:export-filename="img_a.png"
+   inkscape:export-filename="scr_a.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -278,11 +278,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.0396203"
-     inkscape:cx="309.80644"
-     inkscape:cy="311.08837"
+     inkscape:zoom="1.4702451"
+     inkscape:cx="394.41315"
+     inkscape:cy="365.97197"
      inkscape:document-units="px"
-     inkscape:current-layer="layer10"
+     inkscape:current-layer="layer5"
      showgrid="true"
      inkscape:showpageshadow="false"
      borderlayer="true"
@@ -313,7 +313,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -322,30 +322,32 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-452.36218)"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <image
        sodipodi:absref="C:\Users\TAKUYA\Documents\GitHub\tenderBrave.prototype\img\bg_a.jpg"
        xlink:href="bg_a.jpg"
-       y="452.36218"
-       x="0"
-       id="image3002"
+       width="600"
        height="600"
-       width="600" />
+       id="image3002"
+       x="0"
+       y="452.36218" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="キャラ"
      style="display:inline"
-     transform="translate(0,-600)">
+     transform="translate(0,-600)"
+     sodipodi:insensitive="true">
     <image
        sodipodi:absref="C:\Users\TAKUYA\Documents\GitHub\tenderBrave.prototype\img\n.png"
        xlink:href="n.png"
-       y="557.98596"
-       x="132.47083"
-       id="image3013"
+       width="380.28174"
        height="532.39435"
-       width="380.28174" />
+       id="image3013"
+       x="132.47083"
+       y="557.98596" />
   </g>
   <g
      inkscape:groupmode="layer"
