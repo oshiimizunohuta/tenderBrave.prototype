@@ -66,3 +66,19 @@ button {
 	line-height: 1em;
 	/*background-color: #ff00cc;*/ /* 仮 */
 }
+
+.chat_container {
+	position : relative;
+}
+
+.chat_y {
+	color : #ffffff;
+}
+
+.chat_e {
+	color : #ffaabb;
+}
+
+.chat_n {
+	color : #ffee88;
+}

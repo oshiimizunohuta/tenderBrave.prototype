@@ -5,49 +5,75 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>優しい勇者様 prototype</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="util.js"></script>
+	<script src="nezumisenshi.js"></script>
 	<script src="main.js"></script>
 </head>
 <body><div style="width: 600px">
 
 	<div id="main">
 		<div id="scene_a" class="scene">
+
 			<img src="img/img_a.png" />
-			<div class='label' style='width:128px; height:26px; left:140px; top:12px; text-align:left;'><span id='name_a1_label'>勇者Ｆ</span></div>
-			<div class='label' style='width:128px; height:26px; left:332px; top:12px; text-align:right;'><span id='name_a2_label'>ねずみ戦士</span></div>
-			<div class='command' style='width:280px; height:26px; left:20px; top:454px; text-align:left;'><span id='skil_a1_command'>居合い斬り</span></div>
-			<div class='command' style='width:280px; height:26px; left:314px; top:454px; text-align:left;'><span id='skil_a2_command'>たこ殴り</span></div>
-			<div class='command' style='width:280px; height:26px; left:20px; top:486px; text-align:left;'><span id='skil_a3_command'>羽交い締め</span></div>
-			<div class='command' style='width:280px; height:26px; left:314px; top:486px; text-align:left;'><span id='skil_a4_command'>防御</span></div>
-			<div class='label' style='width:420px; height:26px; left:38px; top:530px; text-align:left;'><span id='w_effect_label'>敵に10のダメージ</span></div>
-			<div class='label' style='width:420px; height:26px; left:38px; top:562px; text-align:left;'><span id='l_effect_label'>敵に5のダメージ</span></div>
-			<div class='link' style='width:112px; height:26px; left:476px; top:546px; text-align:center;'><span id='item_link'>アイテム</span></div>
+
+			<div class='label' data-command-id='-1' style='width:128px; height:26px; left:140px; top:12px; text-align:left;'><span id='a_name_y_label'>勇者Ｆ</span></div>
+			<div class='label' data-command-id='-1' style='width:128px; height:26px; left:332px; top:12px; text-align:right;'><span id='a_name_e_label'>ねずみ戦士</span></div>
+			<div class='command' data-command-id='10' style='width:280px; height:26px; left:20px; top:454px; text-align:left;'><span id='a_skill_0_command'>居合い斬り</span></div>
+			<div class='command' data-command-id='11' style='width:280px; height:26px; left:314px; top:454px; text-align:left;'><span id='a_skill_1_command'>たこ殴り</span></div>
+			<div class='command' data-command-id='12' style='width:280px; height:26px; left:20px; top:486px; text-align:left;'><span id='a_skill_2_command'>羽交い締め</span></div>
+			<div class='command' data-command-id='13' style='width:280px; height:26px; left:314px; top:486px; text-align:left;'><span id='a_skill_3_command'>防御</span></div>
+			<div class='label' data-command-id='-1' style='width:420px; height:26px; left:38px; top:530px; text-align:left;'><span id='w_effect_label'>敵に10のダメージ</span></div>
+			<div class='label' data-command-id='-1' style='width:420px; height:26px; left:38px; top:562px; text-align:left;'><span id='l_effect_label'>敵に5のダメージ</span></div>
+			<div class='link' data-command-id='20' style='width:112px; height:26px; left:476px; top:546px; text-align:center;'><span id='item_link'>アイテム</span></div>
+
 		</div>
 		<div id="scene_b" class="scene" style="display: none;">
+
 			<img src="img/img_b.png" />
-			<div class='label' style='width:104px; height:26px; left:164px; top:12px; text-align:left;'><span id='time_label'>残り時間</span></div>
-			<div class='label' style='width:128px; height:26px; left:332px; top:12px; text-align:right;'><span id='name_b2_label'>ねずみ戦士</span></div>
-			<div class='command' style='width:280px; height:26px; left:20px; top:454px; text-align:left;'><span id='skil_b1_command'>着せ替える</span></div>
-			<div class='command' style='width:280px; height:26px; left:314px; top:454px; text-align:left;'><span id='skil_b2_command'>なでる</span></div>
-			<div class='command' style='width:280px; height:26px; left:20px; top:486px; text-align:left;'><span id='skil_b3_command'>お菓子をあげる</span></div>
-			<div class='command' style='width:280px; height:26px; left:314px; top:486px; text-align:left;'><span id='skil_b4_command'>くすぐる</span></div>
-			<div class='command' style='width:280px; height:26px; left:20px; top:518px; text-align:left;'><span id='skil_b5_command'>抱き上げる</span></div>
-			<div class='command' style='width:280px; height:26px; left:314px; top:518px; text-align:left;'><span id='skil_b6_command'>口説く</span></div>
-			<div class='command' style='width:280px; height:26px; left:20px; top:562px; text-align:left;'><span id='skil_b7_command'>お説教をする</span></div>
-			<div class='command' style='width:280px; height:26px; left:314px; top:562px; text-align:left;'><span id='skil_b8_command'>物置に閉じ込める</span></div>
+
+			<div class='label' data-command-id='-1' style='width:104px; height:26px; left:164px; top:12px; text-align:left;'><span id='time_label'>残り時間</span></div>
+			<div class='label' data-command-id='-1' style='width:128px; height:26px; left:332px; top:12px; text-align:right;'><span id='b_name_e_label'>ねずみ戦士</span></div>
+			<div class='command' data-command-id='30' style='width:280px; height:26px; left:20px; top:454px; text-align:left;'><span id='b_skil_0_command'>着せ替える</span></div>
+			<div class='command' data-command-id='31' style='width:280px; height:26px; left:314px; top:454px; text-align:left;'><span id='b_skil_1_command'>なでる</span></div>
+			<div class='command' data-command-id='32' style='width:280px; height:26px; left:20px; top:486px; text-align:left;'><span id='b_skil_2_command'>お菓子をあげる</span></div>
+			<div class='command' data-command-id='33' style='width:280px; height:26px; left:314px; top:486px; text-align:left;'><span id='b_skil_3_command'>くすぐる</span></div>
+			<div class='command' data-command-id='34' style='width:280px; height:26px; left:20px; top:518px; text-align:left;'><span id='b_skil_4_command'>抱き上げる</span></div>
+			<div class='command' data-command-id='35' style='width:280px; height:26px; left:314px; top:518px; text-align:left;'><span id='b_skil_5_command'>口説く</span></div>
+			<div class='command' data-command-id='36' style='width:280px; height:26px; left:20px; top:562px; text-align:left;'><span id='b_skil_6_command'>お説教をする</span></div>
+			<div class='command' data-command-id='37' style='width:280px; height:26px; left:314px; top:562px; text-align:left;'><span id='b_skil_7_command'>物置に閉じ込める</span></div>
+
 			<div id="face" style='width:80px; height:80px; left:500px; top:70px; background:url(img/faces.png) no-repeat -80px -80px;'></div>
+
+			<div id="chat_window" style="display:none; width:600px; height:158px; left:0px; top: 442px; padding:8px; font-size: 18px; color: #fff; background-color:#222;">
+				<div id="chat_y" class="chat_y chat_container"></div>
+				<div id="chat_e" class="chat_e chat_container"></div>
+			</div>
+
+			<img id="ending" src="img/n3.jpg" style="left:0px; top:0px; width:600px; height:600px; display: none;" />
+
 		</div>
 	</div>
+
 	<div style="margin:4px 0px; padding:10px; background-color:#f0f0e8;">
 		<button id="scene_a_button">通常戦闘</button>　<button id="scene_b_button">更生</button>
 	</div>
 
+	<div id="chat_history" style="height:118px; padding:8px; font-size: 16px; background-color:#222; overflow-y: scroll;">
+		<div class="chat_n chat_container">*** 「通常戦闘」はダミーです。お先に更生モードを遊んでみましょう。</div>
+	</div>
+
 	<div>
-		<p>
-			Step by Step的に作っていきます。飽きたら放置します。
-		</p>
+		<p>2015.10.04 更生モードがだいたい遊べるようになった。</p>
 		<p>2015.10.01 ボタンでシーン切り替え。表情のスライドショー追加。</p>
 		<p>2015.09.30 テキスト置いてコマンドをクリックできそうな雰囲気にした（クリックできるとは言ってない）。</p>
 		<p>2015.09.29 とりあえずスライドショー</p>
+		<p>
+			Step by Step的に作っていきます。飽きたら放置します。
+		</p>
+	</div>
+
+	<div style="display:none;">
+		<div id="ending_text" class="chat_n chat_container">*** おめでとう！　ねずみ戦士は悪の道から手を引いたよ！</div>
 	</div>
 
 </div></body>
