@@ -58,9 +58,12 @@ function onBCommand(bCommandId) {
 		facex = fit(facex + ax[facey][facex], 0, FACEX_MAX - 1);
 
 		setFace(facex, facey);
+		
 		// effect();
 		$("#face").show();
 	}, 3000);
+	setTimeout(function() { LTSOUND.se.playForKey(item.dx < 0 ? 'FREE－se:003' : 'FREE－se:002'); }, 2400);
+
 	setTimeout(function() { $("#face").hide(); }, 2500);
 	setTimeout(function() { $("#face").show(); }, 2600);
 	setTimeout(function() { $("#face").hide(); }, 2700);

@@ -1,0 +1,3 @@
+[submodule "libs/litrosound"]
+	path = libs/litrosound
+	url = git@github.com:oshiimizunohuta/litrosound.git
